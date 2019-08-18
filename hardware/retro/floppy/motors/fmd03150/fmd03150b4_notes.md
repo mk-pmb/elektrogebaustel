@@ -17,6 +17,24 @@ Wiring/Pinout
   about 60&nbsp;&Ohm; each.
 
 
+Rear plate
+----------
+
+[Outside photo](fmd03150b4_rear_plate_outer.jpeg) /
+[Inside photo](fmd03150b4_rear_plate_inner.jpeg)
+
+* The outside has the type label, it says:
+  ```text
+      MC
+  FMD03150B4
+    ¦315E
+    S K01
+  ```
+* It can be removed by gently opening either of both clamps on the sides.
+* On the inside it has an angle-shaped spring and three dots forming a smiley.
+
+
+
 Driving via audio signal
 ------------------------
 
