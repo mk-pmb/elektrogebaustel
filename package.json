@@ -1,0 +1,28 @@
+{ "name": "elektrogebaustel",
+  "version": "0.0.1",
+  "description": "Sharing some of my insights from my electronics DIY adventures.",
+  "keywords": [
+    "bausteln",
+    "DIY",
+    "electronics",
+    "hardware",
+    "recycled",
+    "recycling"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/elektrogebaustel/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/elektrogebaustel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/elektrogebaustel/issues"
+  },
+  "contributors": [],
+
+  "private": true, "license": "CC-BY-SA-3.0",
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
