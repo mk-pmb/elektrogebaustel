@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Annotations</title>
+  <!--meta http-equiv="refresh" content=";URL="-->
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <style>
+    body {
+      padding-right: 200vw;
+      font-family: sans-serif;
+      font-size: 14px;
+    }
+    .outer-padding {
+      float: left; margin: 2em;
+      border: 2px solid black; padding: 100px;
+    }
+    p { margin: 0; }
+    main { display: block; position: relative; }
+    label {
+      position: absolute;
+      transform-origin: left top 0;
+      padding-left: 2em;
+      --bg: 2px solid green;
+      top: var(--y);
+      left: var(--x);
+      transform: var(--tr);
+    }
+    label:before, label p { border: var(--bg); }
+    label:before {
+      position: absolute; top: 0; left: 0; width: 100%;
+      display: inline-block; content: " ";
+      border-left-width: 0;
+      border-right-width: 0;
+      border-bottom-width: 0;
+    }
+    label p { background-color: white; padding: 0 0.2em; }
+  </style>
+</head><body>
+
+<div class="outer-padding"><main
+  ><img src="circuit_front_800px.jpeg" width="800" height="763"
+  alt="Front side of circuit board"
+><div>
+
+<div id="" style="
+  --y: 0%;
+  --tr: rotate(-90deg);
+  ">
+  <label style="--x: 42%;"><p>TAE 1</p></label>
+  <label style="--x: 48%;"><p>TAE 4</p></label>
+
+  <label style="--x: 64.8%;"><p>???</p></label>
+  <label style="--x: 66.7%; transform: rotate(-75deg);"><p>TAE 4</p></label>
+
+  <label style="--x: 72.5%;"><p>???</p></label>
+  <label style="--x: 74.5%; transform: rotate(-75deg);"><p>TAE 1</p></label>
+  <label style="--x: 76.5%; transform: rotate(-60deg);"><p>???</p></label>
+</div>
+
+<label style="--x: 74%; --y: 23%;"><p>Both switchhooks:<br>
+  &larr; off-hook / active<br>
+  on-hook / idle &rarr;</p></label>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></main></div>
+
+</body></html>
