@@ -119,6 +119,9 @@ I_Amp_{mess,min} = 0,102 mA
 I_Amp_{mess,max} = 0,106 mA
 ```
 
+* Messung 2020-09-29: alle drei Farbkanäle aktiv: 320 µA
+
+
 
 
 Ex: PWM von Motortreiber
